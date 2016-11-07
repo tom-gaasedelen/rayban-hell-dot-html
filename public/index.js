@@ -1,4 +1,4 @@
-var socket = io.connect('http://150.253.91.14:3000') //connect to the server
+var socket = io.connect() //connect to the server
 
   socket.on('connect', function(data){
     console.log("connected to the server" + socket.id); //when connected, do something
