@@ -1,0 +1,55 @@
+html, body {
+height: 100%;
+width: 100%;
+font-size: 30px;
+font-family: helvetica;
+
+
+}
+
+.iphone {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  font-size: 0.5em;
+
+
+}
+
+.bait {
+padding: 5px;
+width: 90%;
+}
+
+.buttonholder {
+  width:80%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.button {
+
+
+}
+
+#like {
+padding-left: 30px;
+
+}
+
+#share {
+
+
+}
+
+
+h2 {
+  font-family: inherit;
+  color: grey;
+  font-size: 1.5em;
+
+
+}
